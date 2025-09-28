@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout - Parfum Dutchki</title>
+  <link rel="stylesheet" href="co.css" />
+</head>
+<body>
+  <header>
+    <a href="" class="logo"><img src="" alt=""></a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <ul class="navbar">
+        <li><a href="lanpag.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="payment.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <h2>Ringkasan Belanja Anda</h2>
+    <div id="checkout-items">
+      <!-- Produk akan dimuat dengan JavaScript -->
+    </div>
+    <div class="total" id="total-price">Total: Rp 0</div>
+    <button class="btn-confirm" onclick="confirmOrder()">Konfirmasi Pesanan</button>
+  </main>
+
+  <!-- Loader overlay -->
+  <div id="loader" class="loader-overlay" style="display: none;">
+    <div class="spinner"></div>
+    <p>Memproses Pesanan...</p>
+  </div>
+
+  <footer class="footer">
+    <img src="images/Lanpag/lanpag6.png" alt="melati" class="footer-img left">
+    <img src="images/Lanpag/lanpag7.png" alt="mawar" class="footer-img right">
+    <div class="footer-content">
+      <p class="footer-text">© Dutchki 99. All Rights Reserved.</p>
+      <div class="footer-links">
+        <a href="lanpag.html">Our Brand</a>
+        <a href="about.html">About Us</a>
+        <a href="payment.html">Shop Our Product</a>
+        <a href="contact.html">Our Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://wa.me/628994188393" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+        <a href="https://www.instagram.com/reyynoah_/" target="_blank"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.linkedin.com/in/reyynoah-1a9049348/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="co.js"></script>
+</body>
+</html>
